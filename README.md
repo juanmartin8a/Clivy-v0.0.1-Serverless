@@ -21,6 +21,7 @@ This is the first iteration of the Clivy app which functions without a server th
 - **File storage**: Firebase Storage
 - **Cloud functions**: Firebase using Typescript
 - **Notifications**: Firebase Cloud Messaging
+- **ML model**: Tensorflow Lite
 
 ## Features
 - ### Feeds
@@ -29,8 +30,9 @@ This is the first iteration of the Clivy app which functions without a server th
     - **For you**: Shows recommended videogame clips (in this version of clivy I only used images for testing and simplicity).
   
     - **Following**: Shows the videogame clips (in this version of clivy I only used images for testing and simplicity) of the users you follow.
+      
+    - **Single videogame for you** Shows the recommended videogame clips from a specific videogame.
   
-  The clips coming from each feed can be filtered by videogame. This means that you can choose to view clips from a specific videogame in the "For you" or "Following" feeds.
 - ### Notifications
   You are notified when:
     - A user adds follows you
@@ -55,7 +57,7 @@ This is the first iteration of the Clivy app which functions without a server th
     - Comment count
     - Comments
     - Views count
-  Users can upload clips! This app makes use of [this videogame classification artificial neural network (ANN)](https://github.com/juanmartin8a/Videogame-Video-Classification). The app makes use of the image classification one not the full video classification.
+  Users can upload clips! This app makes use of [this videogame classification artificial neural network (ANN)](https://github.com/juanmartin8a/Videogame-Video-Classification). The app makes use of the image classification one not the full video classification. You can add the model by downloading the [agmodel.tflite](https://drive.google.com/file/d/187slxm6E7Hq6JG-GOV5Mp_W3tTxDRLws/view?usp=sharing) file and adding it to the [assets](https://github.com/juanmartin8a/Clivy-v0.0.1-Serverless/tree/main/assets) folder.
 - ### Profiles
   Each user has a profile which includes the following information:
   - Name
