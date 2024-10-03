@@ -31,7 +31,7 @@ This is the first iteration of the Clivy app which functions without a server th
   
     - **Following**: Shows the videogame clips (in this version of clivy I only used images for testing and simplicity) of the users you follow.
       
-    - **Single videogame for you** Shows the recommended videogame clips from a specific videogame.
+    - **Single videogame recommended**: Shows the recommended videogame clips from a specific videogame.
   
 - ### Notifications
   You are notified when:
