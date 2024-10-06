@@ -1,4 +1,7 @@
 # Clivy v0.0.1 (serverless)
+![Started](https://img.shields.io/badge/Started-Feb%202021-blue%20green.svg)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-Apr%202021-blue.svg?color=informational)
+
 Social media for gamers!
 
 This is the first iteration of the Clivy app which functions without a server thanks to Firebase (bad idea). The final iteration of Clivy that uses a monolithic server can be found in [this repository](https://github.com/juanmartin8a/Clivy).
